@@ -1,0 +1,11 @@
+/Users/lnevestrindade/Projects/monalisa/monalisa/bin/Debug/netcoreapp3.1/monalisa
+/Users/lnevestrindade/Projects/monalisa/monalisa/bin/Debug/netcoreapp3.1/monalisa.deps.json
+/Users/lnevestrindade/Projects/monalisa/monalisa/bin/Debug/netcoreapp3.1/monalisa.runtimeconfig.json
+/Users/lnevestrindade/Projects/monalisa/monalisa/bin/Debug/netcoreapp3.1/monalisa.runtimeconfig.dev.json
+/Users/lnevestrindade/Projects/monalisa/monalisa/bin/Debug/netcoreapp3.1/monalisa.dll
+/Users/lnevestrindade/Projects/monalisa/monalisa/bin/Debug/netcoreapp3.1/monalisa.pdb
+/Users/lnevestrindade/Projects/monalisa/monalisa/obj/Debug/netcoreapp3.1/monalisa.csprojAssemblyReference.cache
+/Users/lnevestrindade/Projects/monalisa/monalisa/obj/Debug/netcoreapp3.1/monalisa.AssemblyInfoInputs.cache
+/Users/lnevestrindade/Projects/monalisa/monalisa/obj/Debug/netcoreapp3.1/monalisa.AssemblyInfo.cs
+/Users/lnevestrindade/Projects/monalisa/monalisa/obj/Debug/netcoreapp3.1/monalisa.dll
+/Users/lnevestrindade/Projects/monalisa/monalisa/obj/Debug/netcoreapp3.1/monalisa.pdb
