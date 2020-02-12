@@ -14,12 +14,26 @@ namespace monalisa
 
             Gal.Initialize();
 
-            
-            Console.WriteLine(Gal.Pieces[1].ToString());
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(Gal.Pieces[i].ToString());
+            }
+
+            Console.WriteLine("\n---------Prices-----------------");
+            Gal.Pieces.Sort();
+
+            //foreach (ArtPiece Piece in Gal.Pieces)
+           //    Console.WriteLine(Gal.Pieces.ToString());
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(Gal.Pieces[i].ToString());
+            }
         }
     }
 
-    class ArtPiece
+    class ArtPiece : IComparable<ArtPiece>
     {
         private string _Name;  // final
         private Category _Type;  // final
@@ -34,18 +48,22 @@ namespace monalisa
 
         public override string ToString()
         {
-
             switch (_Type)
             {
                 case Category.PAINTING:
-                    return ("Piece: " + _Name + "- Type: Painting - Price: " + _Price);
+                    return ("Piece: " + _Name + " - Type: Painting - Price: " + _Price);
                 case Category.SCULPTURE:
-                    return ("Piece: " + _Name + "- Type: Sculpture - Price: " + _Price);
+                    return ("Piece: " + _Name + " - Type: Sculpture - Price: " + _Price);
                 default:
-                    return ("Piece: " + _Name + "- Type: Drawing - Price: " + _Price);
+                    return ("Piece: " + _Name + " - Type: Drawing - Price: " + _Price);
             }
-
         }
+
+        public int CompareTo(ArtPiece p)
+        {
+            return this._Price.CompareTo(p._Price);
+        }
+
 
     }
 
@@ -59,8 +77,8 @@ namespace monalisa
         {
 
             Pieces.Add(new ArtPiece("Monalisa", Category.PAINTING, 2000));
-            Pieces.Add(new ArtPiece("Davi", Category.SCULPTURE, 2000));
-            Pieces.Add(new ArtPiece("Sun", Category.DRAWING, 2000));
+            Pieces.Add(new ArtPiece("Davi", Category.SCULPTURE, 1000));
+            Pieces.Add(new ArtPiece("Sun", Category.DRAWING, 3000));
 
         }
     }
